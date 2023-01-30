@@ -1,0 +1,103 @@
+On Start of ConsumablesTracker
+------------------------------
+Will display a main menu with a title: "My Consumables Tracker" on top and
+4 buttons below. Below the buttons are a scroll frame and below that is an item button.
+On start up the frame will either display all the consumable items in the database
+or say "No items to show".
+
+Listing Items from Database
+---------------------------
+To display items by different criteria from the database
+click on one of the 4 buttons on top of the screen
+-Listing All Items
+ ------------------
+ Click the "All" button. In the scroll frame all the items in the database will be displayed or
+ if there are no items displays the message "No items to show"
+-Listing Expired Items
+ ---------------------
+ Click the "Expired" button. In the scroll frame all the items in the database will be displayed or
+ if there are no items displays the message "No expired items to show"
+-Listing Non-Expired Items
+ --------------------------
+ Click the "Not Expired" button. In the scroll frame all the items in the database will be displayed or
+ if there are no items displays the message "No non-expired items to show"
+-Listing Items Expiring in a Week
+ --------------------------------
+ Click the "Expiring in 7 Days" button. In the scroll frame all the items in the database will be displayed or
+ if there are no items displays the message "No items expiring 7 days to show"
+
+Removing Items from Database
+----------------------------
+To remove an item from the database in the Scroll Frame. Directly below the item you want to remove
+click the "Remove" button. If there are no items to remove there will not be any "Remove" buttons
+to press. Once you click the "Remove" button the Scroll Frame will display all items again and item
+associated with the "Remove" button that was clicked will be removed.
+
+Add an Item
+--------------
+ -Entering the Add Item Menu
+ --------------------------
+  To enter the menu to add an item click on the "Add Item" button at the bottom of the frame
+
+  -Picking a type for the item
+   ---------------------------
+   To add an item first from the combo box at the top of the screen next to "Type:" click on it
+   and select a type of the item you want to add. By default, it will be the Food type.
+
+  -Adding a name for the item
+   --------------------------
+   Click on the text field next to the "Name:" and type in a name of the item.
+   This field must be filled or a popup message will tell you to fill it in when you
+   try to create the item.
+
+  -Adding notes for the item
+   --------------------------
+   Click on the text field next to the "Notes:" and type in notes of the item.
+   This field can be left empty.
+
+  -Adding a price for the item
+   -----------------------------
+   Click on the text field next to the "Price:" and type in a price of the item.
+   This field must be a number and has to be greater than 0.
+   This field must be filled or a popup message will tell you to fill it in when you
+   try to create the item.
+
+  -Adding a measurement for the item
+   ---------------------------------
+   Then click on the text field next to the "Weight:" or "Volume:" and type in a measurement of the item.
+   The "BLANK:" next to the text field for the measurement of the item depends on what type you selected
+   for the item and will dynamically change depending on your selection.
+   This field must be a number and has to be greater than 0.
+   This field must be filled or a popup message will tell you to fill it in when you
+   try to create the item.
+
+  -Adding an expiry date for the item
+   -------------------------------------
+   Then click on the blue box with three dots on the same line as the "Expiry Date:" and a calendar will pop
+   up. Click on the day of the month to select an expiry date on that month. To change the month
+   click on the top left "<" button to go back a month and the top right ">" button to go forward a month.
+   To change the year click on the "<<" button to go back a year or click on the ">>" button to go forward
+   a year. Click on the data on the bottom left to set the expiry date to the current date of your system.
+   To clear the expiry date click on the "Clear" button on the bottom right.
+   An expiry date must be selected or a popup message will tell you to fill in the field when you try to
+   create the item.
+
+  -Creating the Item
+   -----------------
+   Once all the fields are filled in click on the "Create" button and the item will be created and
+   added to the database. The add item menu will close, and you will return to the main menu frame.
+   If there are required fields that are not filled in a popup will tell you to fill them in.
+   If the price or measure field or invalid i.e. less than or equal to 0, then a popup will
+   tell you to fix it.
+
+  -Leaving the Add Item Menu
+   -------------------------
+   After filling in all the fields properly and clicking on the create button the Add Item Menu will close.
+   Or click the "Cancel" button or the "X" button on the top right to close the Add Item menu, and you will
+   return to the main menu again.
+
+Quitting the ConsumablesTracker
+-------------------------------
+Once you want to quit you will click on the "X" button on the top right of the frame. One you
+quit if there are any items in the database they will be saved and the next time you open the Consumables
+Tracker they will be displayed.
